@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-size: 70%;
+  background-position: center;
+}
+
+.scroll-container {
+  overflow-x: auto;     /* 横スクロールを有効化 */
+  white-space: nowrap;  /* コンテンツを横一列に並べる */
+  width: 100%;          /* コンテナの幅を画面いっぱいに */
+}
+
+.scroll-content img {
+  height: 400px;        /* ドア画像の高さを調整 */
+  margin-right: 0px;   /* 画像間のスペース */
+  display: inline-block;/* 横並びにする */
+}
+
+main {
+  flex: 1;
+}
+
+
+footer {
+  color: black;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 0;
+}
+
+nav a {
+  color: grey;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.container {
+  margin-top: 40px;
+  text-align: center;
+  background: transparent;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.image {
+  background-image: url("/images/door2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 450px;  /* 画面高さ */
+}
